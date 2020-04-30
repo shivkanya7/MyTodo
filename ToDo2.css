@@ -1,0 +1,61 @@
+body {
+	width: 60%;
+	margin-left: 25%
+}
+
+#main {
+	margin-top: 100px;
+}
+
+#main h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#upper{
+	width: 100%;
+}
+
+#upper #textbox{
+	width: 77%;
+	float: left;
+	
+	margin-bottom: 2px;
+}
+
+#upper #btn{
+	width: 20%;
+	float: right;
+	
+}
+
+#tab{
+	width: 90%;
+}
+
+#tab td{
+	border: 1px solid ;
+	margin: 1px;
+	padding: 8px;
+	
+}
+
+#tab td:hover {
+	background: gold;
+}
+
+#tab tr:nth-child(even) {
+	background:violet;
+	color: white;
+}
+
+#tab tr:nth-child(odd) {
+	background: white;
+}
+
+
+
+#key{
+	color: white;
+}
+
